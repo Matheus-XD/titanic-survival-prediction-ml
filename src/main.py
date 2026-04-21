@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
 # carregar dados
-df = pd.read_csv("train.csv")
+df = pd.read_csv("data/train.csv")
 
 # selecionar colunas simples
 df = df[['Survived', 'Pclass', 'Sex', 'Age', 'Fare', 'SibSp']]
