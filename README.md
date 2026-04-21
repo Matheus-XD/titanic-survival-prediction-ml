@@ -26,7 +26,7 @@ O modelo foi treinado com dados reais contendo informações como:
 
 ### 1. Clone o repositório
 
-```bash
+```
 git clone <URL_DO_REPOSITORIO>
 cd ML-Titanic
 ```
@@ -35,7 +35,7 @@ cd ML-Titanic
 
 ### 2. Crie um ambiente virtual
 
-```bash
+```
 python -m venv venv
 ```
 
@@ -51,7 +51,7 @@ venv\Scripts\activate
 
 #### Linux / Mac
 
-```bash
+```
 source venv/bin/activate
 ```
 
@@ -59,16 +59,15 @@ source venv/bin/activate
 
 ### 4. Instale as dependências
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
 ---
 
-### 5. Execute o projeto
-
-```bash
-python main.py
+### 5. Execute o projeto dentro da pasta raiz (titanic-survival-prediction-ml)
+```
+python -m src.main.py
 ```
 
 ---
