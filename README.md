@@ -108,36 +108,6 @@ O fluxo do projeto segue:
 4. Treinamento do modelo
 5. Avaliação de desempenho
 
----
-
-## 🧩 Melhorias Futuras
-
-* Feature engineering mais avançado
-* Ajuste de hiperparâmetros
-* Validação cruzada
-* Uso de modelos mais avançados (Gradient Boosting)
-
----
-
-## 📁 Estrutura do Projeto
-
-```text
-ML-Titanic/
-│
-├── main.py
-├── train.csv
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 🚀 Autor
-
-Projeto desenvolvido como prática de Machine Learning.
-
----
-
 ## 💡 Observações
 
 * Não subir a pasta `venv/` para o repositório
